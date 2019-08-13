@@ -1,0 +1,17 @@
+<?php
+$_order = new Mage_Sales_Model_Order();
+$orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+$_order->loadByIncrementId($orderId);
+?>
+<form name="billingmaker" action="https://payment.billingmaker.com/sepa/" method="post">
+    <input type="hidden" name="h" value="<?php echo Mage::getStoreConfig('payment/mygateway/bp_id'); ?>" />
+    <input type="hidden" name="p" value="<?php echo str_replace('.',',',number_format($_order->getBaseGrandTotal(),2)); ?>" />
+    <input type="hidden" name="m" value="1" />
+    <input type="hidden" name="b" value="ID <?php echo $orderId; ?>" />
+    <input type="hidden" name="c" value="<?php echo $orderId; ?>" />
+    <input type="hidden" name="rurl" value="<?php echo Mage::getBaseUrl('web', true); ?>" />
+    <input type="hidden" name="nurl" value="<?php echo Mage::getBaseUrl('web', true).'mygateway/payment/response'; ?>" />
+</form>
+<script type="text/javascript">
+document.billingmaker.submit();
+</script>

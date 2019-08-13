@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Billingmaker_Payment_SEPA_Lastschrift</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Mit dieser Erweiterung k&#xF6;nnen Sie die Bezahlart SEPA-Lastschriften im Shop anbieten.</summary>
+    <description>Mit dieser Erweiterung k&#xF6;nnen Sie die Bezahlart SEPA-Lastschriften in wenigen Schritten im Online Shop hinzuf&#xFC;gen.&#xD;
+&#xD;
+Sie ben&#xF6;tigen einen Account bei https://payment.billingmaker.com</description>
+    <notes>stable version</notes>
+    <authors><author><name>Billingmaker Payment</name><user>Billingmaker</user><email>support@codemec.com</email></author></authors>
+    <date>2015-07-08</date>
+    <time>11:07:25</time>
+    <contents><target name="magelocal"><dir><dir name="Myname"><dir name="Mygateway"><dir name="Helper"><file name="Data.php" hash="86928b761e7987891d81450b03b03aa1"/></dir><dir name="Model"><file name="Standard.php" hash="8959372e8722dabeaec0c91e7b097af6"/></dir><dir name="controllers"><file name="PaymentController.php" hash="cc8701c3f4171c889e9e91e0aab43b9e"/></dir><dir name="etc"><file name="config.xml" hash="801683300e96cacdc6679ae97b64e080"/><file name="system.xml" hash="741906caf06305b556df579a70486245"/></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="mygateway"><file name="redirect.phtml" hash="6b2d30d29335c382d51b9b3ff1444035"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Myname_Mygateway.xml" hash="c4c31756794ff9ded83e9798e15e9403"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>3.0.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
