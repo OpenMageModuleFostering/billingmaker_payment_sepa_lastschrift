@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Billingmaker_Payment_SEPA_Lastschrift",
+    "name": "OpenMageModuleFostering\/Billingmaker_Payment_SEPA_Lastschrift",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "Mit dieser Erweiterung können Sie die Bezahlart SEPA-Lastschriften im Shop anbieten.",
+    "description": "Mit dieser Erweiterung k\u00f6nnen Sie die Bezahlart SEPA-Lastschriften im Shop anbieten.",
     "authors": [
-    {
-        "name": "Billingmaker Payment",
-        "email": "support@codemec.com"
-    }
-],
+        {
+            "name": "Billingmaker Payment",
+            "email": "support@codemec.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
