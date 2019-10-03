@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Billingmaker_Payment_SEPA_Lastschrift",
+    "name": "openmage-module-fostering\/billingmaker_payment_sepa_lastschrift",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",

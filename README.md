@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Mit dieser Erweiterung können Sie die Bezahlart SEPA-Lastschriften im Shop anbieten.
